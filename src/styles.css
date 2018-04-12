@@ -1,1 +1,89 @@
 /* You can add global styles to this file, and also import other style files */
+div.redTable {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.divTable.redTable .divTableCell, .divTable.redTable .divTableHead {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+.divTable.redTable .divTableBody .divTableCell {
+  font-size: 13px;
+}
+.divTable.redTable .divTableRow:nth-child(even) {
+  background: #F5C8BF;
+}
+.divTable.redTable .divTableHeading {
+  background: #A40808;
+}
+.divTable.redTable .divTableHeading .divTableHead {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #A40808;
+}
+.divTable.redTable .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.redTable .tableFootStyle {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #A40808;
+}
+.redTable .tableFootStyle {
+  font-size: 13px;
+}
+.redTable .tableFootStyle .links {
+	 text-align: right;
+}
+.redTable .tableFootStyle .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #A40808;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.redTable.outerTableFooter {
+  border-top: none;
+}
+.redTable.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #EEE7DB;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #FFFFFF;
+  background-color: #C4290C;
+}
+nav a:hover {
+  color: #FFFFFF;
+  background-color: #731818;
+}
+nav a.active {
+  color: #FFFFFF;
+  background-color: #731818;
+}

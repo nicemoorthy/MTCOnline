@@ -1,0 +1,11 @@
+<div class="container">
+<img src="assets/bus.jpg" alt="Bus" style="width:30%;">
+<div class="centered"><h2>{{stageDetail.stage_number}}</h2></div>
+</div>
+<div class="stageList">
+<p *ngFor ='let stage of stageDetail.stage.split(",") ; let i = index'>
+<img *ngIf="i % 2 != 0" src="assets/left.jpg" alt="Left Arrow" height="20" width="32">
+{{stage}}
+<img *ngIf="i % 2 == 0" src="assets/right.jpg" alt="Right Arrow" height="20" width="32">
+</p>
+</div>

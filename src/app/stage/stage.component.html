@@ -1,0 +1,15 @@
+<div class="title">
+  <h2>{{ comptitle }}</h2>
+</div>
+<div class="divTable redTable">
+	<div class="divTableHeading">
+		<div class="divTableHead">Stage Number</div>
+		<div class="divTableHead">Stage</div>
+	</div>
+	<div class="divTableBody">
+		<div class="divTableRow" *ngFor = 'let stage of istages'>
+			<div class="divTableCell">{{stage.stage_number}}</div>
+			<div class="divTableCell">{{stage.stage}}</div>
+		</div>		
+	</div>
+</div>

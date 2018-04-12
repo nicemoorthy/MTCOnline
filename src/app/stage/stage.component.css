@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.centered {
+    position: absolute;
+    top: 125px;
+    left: 160px;
+}
+.stageList{
+	 text-align: center;
+}

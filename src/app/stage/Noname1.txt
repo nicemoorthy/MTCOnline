@@ -1,0 +1,14 @@
+[?3/?14/?2018 10:56 AM] Gudluri, Tejaswi: 
+sure  do we have to telnet ?
+[?3/?14/?2018 10:58 AM] KAMARAJ, SELVAMOORTHY: 
+ 204.99.39.15:7023
+[?3/?14/?2018 10:58 AM] Gudluri, Tejaswi: 
+we need to open a HPSM to start working on it 
+and do we have to telnet from all 4 prod servers?
+PRDPSF2E/2f/2g/2h?
+[?3/?14/?2018 11:00 AM] KAMARAJ, SELVAMOORTHY: 
+sure will open HPSM.. to whom/group i need to assign the ticket
+[?3/?14/?2018 11:00 AM] Gudluri, Tejaswi: 
+CUSTOMER SERVICE TIER I 
+also please mention if it from al 4 prd servers
+Thank you!!
